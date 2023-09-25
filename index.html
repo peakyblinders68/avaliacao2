@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">.cs
 
 </head>
@@ -42,15 +42,15 @@
             </span>
             <div class="div-imagem">
                 <img class="Imagem" src="img/cão1.JPG" alt="">
-                <h1 class="titulo">imagem 1</h1>
+                <h1 class="titulo">golden 1</h1>
             </div>
             <div class="div-imagem">
                 <img class="Imagem" src="img/cão2.JPG" alt="">
-                <h1 class="titulo">Imagem 2</h1>
+                <h1 class="titulo">golden 2</h1>
             </div>
             <div class="div-imagem">
                 <img class="Imagem" src="img/cão3.JPG" alt="">
-                <h1 class="titulo">Imagem 3</h1>
+                <h1 class="titulo">golden 3</h1>
             </div>
             <span>
             </span>
@@ -58,16 +58,16 @@
             </span>
             <div class="div-imagem">
                 <img class="Imagem" src="img/cão4.JPG" alt="">
-                <h1 class="titulo">Imagem 4</h1>
+                <h1 class="titulo">golden 4</h1>
             </div>
     
             <div class="div-imagem">
                 <img class="Imagem" src="img/cão5.JPG" alt="">
-                <h1 class="titulo">Imagem 5</h1>
+                <h1 class="titulo">golden 5</h1>
             </div>
             <div class="div-imagem">
                 <img class="Imagem" src="img/cão6.JPG" alt="">
-                <h1 class="titulo">Imagem 6</h1>
+                <h1 class="titulo">golden 6</h1>
             </div>
             <span>
             </span>
@@ -75,15 +75,15 @@
             </span>
             <div class="div-imagem">
                 <img class="Imagem" src="img/cão7.JPG" alt="">
-                <h1 class="titulo">Imagem 7</h1>
+                <h1 class="titulo">golden 7</h1>
             </div>
             <div class="div-imagem">
                 <img class="Imagem" src="img/cão8.JPG" alt="">
-                <h1 class="titulo">Imagem 8</h1>
+                <h1 class="titulo">golden 8</h1>
             </div>
             <div class="div-imagem">
                 <img class="Imagem" src="img/cão9.JPG" alt="">
-                <h1 class="titulo">Imagem 9</h1>
+                <h1 class="titulo">golden 9</h1>
             </div>
         </div>
 
@@ -97,14 +97,14 @@
              <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><img src="img/capa1.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="img/capa2.svg" alt=""></div>
-                <div class="swiper-slide"><img src="img/capa3.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="img/capa4.svg" alt=""></div>
-                <div class="swiper-slide"><img src="img/capa5.svg" alt=""></div>
-                <div class="swiper-slide"><img src="img/capa6.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="img/capa7.svg" alt=""></div>
-                <div class="swiper-slide"><img src="img/capa8.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/img1.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/img2.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/img3.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/img4.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/img5.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/img6.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/img7.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/img8.svg" alt=""></div>
                 
       ...
         </div>
@@ -115,10 +115,18 @@
     <div class="swiper-button-next"></div>
   </div>
     </section>
-    <script src="<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>"
-    cont swiper = new sWiper('.swiper', {
-speed:400,
- spaceBetween: 100,
-    })
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+              }
+        });
+    </script>
+}
+
 </body>
 </html>
